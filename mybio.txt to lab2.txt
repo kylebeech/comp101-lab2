@@ -1,0 +1,23 @@
+1.	What is the difference between HTTP and HTTPS?
+So, the main difference between the two would be security. HTTP transmits data in plain text. It’s simple but doesn’t protect information from being altered or intercepted. HTTPS is HTTP with another security layer. It encrypts data exchanged between browser and server, protecting sensitive information such as passwords. 
+
+2.	Explain how DNS and IP work together to enable communication over the Internet.
+The DNS is a naming system that plays a major role in translating easily memorable domain names into numerical IP addresses. It’s basically like the phone book of the internet, where domain names like "www.capilanou.ca" are associated with specific IP addresses, which allows computers to locate each other on the network. DNS makes sure that users can access websites, send emails, and use other online services without needing to remember complex numerical addresses.
+
+3.	 What is a URL? What are the different parts of a URL?
+A URL is a Uniform Resource Locator, and it serves as the addressing system for resources on the internet. Each URL has a unique identifier for web pages, which guides users and browsers to the precise location of the content they want. The different parts of a URL are the protocol, subdomain, domain, and top-level domain. 
+
+4.	How are URLs used on the Internet?
+A URL is a Uniform Resource Locator, and it serves as the addressing system for resources on the internet. When you type a URL into a browser, it basically tells the browser which server to contact and which specific resources to connect. An example would be http://www.google.com. 
+
+5.	How can you recognize whether something is a pathname or a URL? (I.e., what is visibly different about them?)
+So, a URL usually has a protocol like http:// and a domain name like www.google.com. A pathname is just the path to a folder or file on a computer or server, that doesn’t include a domain or protocol. An example would be /users/documents/report.doc. 
+
+Which device acts as the client? 
+Bob's device
+Which device acts as the server? 
+GitHub's web server
+How Bob’s browser requests the repository content
+The browser sends an HTTP GET request 
+How the server responds and sends the content back to Bob
+The server returns an HTTP response, status lines, headers, and a body
